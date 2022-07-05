@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios 4 - Listas de Seleccion</title>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Mis Hobbies:</legend>
+            <div>
+                <label><input type="checkbox">Leer</label>
+            </div>
+            <div>
+                <label><input type="checkbox">Cine</label>
+            </div>
+            <div>
+                <label><input type="checkbox">Musica</label>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Sexo :</legend>
+            <div>
+                <label><input type="radio" name="gender">Hombre</label>
+            </div>
+            <div>
+                <label><input type="radio" name="gender">Mujer</label>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Selecciona tu pais:</legend>
+            <select name="country" id="">
+                <optgroup label="Suramerica">
+                    <option value="co">Colombia</option>
+                    <option value="pa">Panama</option>
+                    <option value="pe">Peru</option>
+                </optgroup>
+                <optgroup label="Norteamerica">
+                    <option value="mx">Mexico</option>
+                    <option value="ca">Canadá</option>
+                </optgroup>
+            </select>
+        </fieldset>
+        <fieldset>
+            <input type="list" list="country-list">
+            <datalist id="country-list">
+                <option value="Peru"></option>
+                <option value="Colombia"></option>
+                <option value="Mexico"></option>
+                <option value="Argentina"></option>
+                <option value="Brasil"></option>
+                <option value="Chile"></option>
+                <option value="España"></option>
+            </datalist>
+        </fieldset>
+    </form>
+    
+</body>
+</html>

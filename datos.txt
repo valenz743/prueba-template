@@ -1,0 +1,4 @@
+Este es un archivo que me muestra los datos de las personas involucradas en el proyecto:
+Carlos Sanchez
+Andrea Alvarez
+Jose Valenzuela
